@@ -32,7 +32,7 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Archive
+  - text: Tags
     url: /tags/
 
 # The shortname for your Disqus site to enable comments.
@@ -43,7 +43,7 @@ accent_color: '#2d72d9'
 
 # Site footer
 footer:
-  content: "&copy; by Shiyu Li. All rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "&copy; Shiyu Li all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
   has_social: true
 
 # Plugins
