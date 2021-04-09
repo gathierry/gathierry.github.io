@@ -15,7 +15,7 @@ title: "Shiyu's Blog"
 description: ""
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+baseurl: "http://gathierry.github.io"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
 url: "http://gathierry.github.io"
@@ -32,12 +32,8 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Style Guide
-    url: /style-guide/
-  - text: Tags
+  - text: Archive
     url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
 # The shortname for your Disqus site to enable comments.
 disqus: shiyugithubpages
