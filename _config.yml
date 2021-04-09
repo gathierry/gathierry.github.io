@@ -31,9 +31,9 @@ navigation:
   - text: Home
     url: /
   - text: About
-    url: /about/
+    url: /about
   - text: Archive
-    url: /tags/
+    url: /tags
 
 # The shortname for your Disqus site to enable comments.
 disqus: shiyugithubpages
