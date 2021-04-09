@@ -1,74 +1,51 @@
 ---
-layout: page
-tagline:
+layout: default
 ---
 
-{% for post in paginator.posts %}
+<main class="main-content fadeInDown delay_075s">
 
-<article class="home">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%B %-d, %Y" }}</time>
+      <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{post.title}}</a></h2>
+      <div class="post-meta">
+        By <span class="post-author">{{ site.data.author.name }}</span>{% if post.tags.size > 0 %}<span
+          class="post-tags"> in
+          {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | cgi_escape }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
+      </div><!-- .post-meta -->
+      {% if post.feature_image and post.feature_image != "" %}
+      <figure class="post-thumbnail image-card width-wide">
+        <a href="{{site.baseurl}}{{post.url}}"><img src="{{ post.feature_image | relative_url }}"
+            alt="{{ post.title }}"></a>
+      </figure><!-- .post-thumbnail -->
+      {% endif %}
+    </header><!-- .post-header -->
+    <div class="post-content">
+      {% if post.content contains '<!--more-->' %}
+      {{ post.content | split:'<!--more-->' | first }}
+      <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more-link">Continue reading &rarr;</a>
+      </p>
+      {% else %}
+      {{ post.content }}
+      {% endif %}
+    </div><!-- .post-content -->
+  </article><!-- .post -->
+  {% endfor %}
 
-  <span class="post-date">
-    {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
-    {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
-    {% endcase %}
-    {{ post.date | date: "%Y" }}
-  </span>
-
-  <h2>
-    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-  </h2>
-
-  <div>
-    {% if post.fullview %}
-    {{ post.content }}
-    {% else %}
-    {% if post.shortinfo %}
-    {{ post.shortinfo }}
-    {% elsif post.description %}
-    {{ post.description }}
-    {% else %}
-    {{ post.excerpt }}
-    {% endif %}
-    {% endif %}
-  </div>
-
-</article>
-{% endfor %}
-<hr/>
-
-<ul class="pager"> 
-
-  {% if paginator.previous_page %}
-  <li class="previous">
-    {% if paginator.previous_page == 1 %}
-    <a href="{{ site.BASE_PATH }}/">&larr; Newer</a>
-    {% else %}
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
-    {% endif %}
-  </li>
-  {% else %}
-  <li class="previous disabled">
-    <a>&larr; Newer</a>
-  </li>
-  {% endif %}
-  
-  <li>
-    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  </li>
-
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.next_page }}">Older &rarr;</a>
-  </li>
-  {% else %}
-  <li class="next disabled">
-    <a>Older &rarr;</a>        
-  </li>
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    <h2 class="screen-reader-text">Posts navigation</h2>
+    <div class="nav-links">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">&larr; Newer Posts</a>
+      {% endif %}
+      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">Older Posts &rarr;</a>
+      {% endif %}
+    </div>
+  </nav><!-- .pagination -->
   {% endif %}
 
-</ul>
+</main><!-- .site-main -->
