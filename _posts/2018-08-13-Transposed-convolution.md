@@ -4,7 +4,7 @@ title: 形象的转置卷积
 tags: [deep learning]
 description: 形象理解转置卷积里各个参数的作用
 date: 2018-08-13
-feature_image: image/2018-08-13-Transposed-convolution/title.gif
+feature_image: images/2018-08-13-Transposed-convolution/title.gif
 ---
 
 关于转置卷积的用处，以及极其背后的原理，不是这里要讨论的重点，可以参考 https://towardsdatascience.com/up-sampling-with-transposed-convolution-9ae4f2df52d0
