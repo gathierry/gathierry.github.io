@@ -4,8 +4,12 @@ title: Fortran Notes
 tags: [fortran]
 description: Fotran学习笔记，参考自http://micro.ustc.edu.cn/Fortran/ZJDing/
 date: 2015-04-21
-feature_image:
+feature_image: images/2015-04-21-Fortran-Notes/title.JPG
 ---
+Fortran语言由IBM在1957年开发出来，是第一个被正式采用并流传至今的高级语言，直至今天，在数值计算领域仍然被广泛应用。历史上陆续有 Fortran77, Fortran90, Fortran 95、Fortran 2003、Fortran 2008 等标准。
+
+<!--more-->
+
 # 1.3 Fortran程序的基本组成
 
 ## 1.3.3 程序组成

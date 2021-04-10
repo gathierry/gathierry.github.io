@@ -5,6 +5,7 @@ tags: [data analysis, machine learning]
 description: 这部分内容包括了最优化的形式，KTT条件，拉格朗日算子及其对偶形式
 date: 2018-08-17
 feature_image: 
+usemathjax: true
 ---
 
 最优化问题都可以表达成以下形式：
@@ -14,6 +15,8 @@ $$\begin{align}
 s.t.\ g_j(x) &\leq 0 \quad (j=1,2,...,m) \\
 h_k(x) & =0 \quad (k=1,2,...,l)
 \end{align}$$
+
+<!--more-->
 
 当 $$f(x), g_j(x)$$ 是凸函数，$$h_k(x)$$ 是仿射函数时，优化问题是**凸优化问题**。
 

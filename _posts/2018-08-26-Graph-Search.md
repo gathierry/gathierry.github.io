@@ -19,6 +19,8 @@ feature_image:
             self.label = x
             self.neighbors = [] 
 
+<!--more-->
+
 ## 深度优先搜索 (DFS)
 
 ### 非递归实现

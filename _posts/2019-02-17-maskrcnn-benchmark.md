@@ -5,12 +5,15 @@ tags: [object detection, instance segmentation, deep learning, computer vision]
 description:
 date: 2019-02-17
 feature_image: images/2019-02-17-maskrcnn-benchmark/title.png
+usemathjax: true
 ---
-# 写在前面
+
 
 [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) 是继 Detectron 之后 FAIR 用 Pytorch1.0 最新的实现，在效率上超越了 Detectron。通过阅读、实验代码，可以对 Mask RCNN 这一多任务模型的诸多细节有更深刻的认识。
 
 **这篇文章是阅读代码时做的分析，便于理解工程的结构和思路，并不会去解释 Mask RCNN 的论文，也不会逐行分析每句代码的作用。**
+
+<!--more-->
 
 ## 安装方法
 

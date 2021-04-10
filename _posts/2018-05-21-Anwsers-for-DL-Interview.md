@@ -4,10 +4,13 @@ title: 深度学习面试你必须知道这些答案
 tags: [deep learning]
 description: 本文节选了网上分享的一部分深度学习相关的面试题，以及搜索到的答案。
 date: 2018-05-21
-feature_image: 
+feature_image: images/2018-05-21-Anwsers-for-DL-Interview/title.jpg
+usemathjax: true
 ---
 本文节选了网上分享的一部分深度学习相关的面试题，并将搜集到的答案随之附上。  
 参考了来自 _https://cloud.tencent.com/developer/article/1064505_ 的内容。
+
+<!--more-->
 
 #### Q1. 列举常见的一些范数及其应用场景，如 $$L^0$$，$$L^1$$，$$L^2$$，$$L^\infty$$，Frobenius 范数
 - 范数用于测量一个向量。比如 $$\boldsymbol{x}$$ 的 $$L^p$$ 范数记为

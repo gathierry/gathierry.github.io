@@ -5,7 +5,12 @@ tags: [deep learning]
 description: 深度学习中常见的优化器，包括 SGD, momentum SGD, Nesterov accelerated gradient, Adagrad, AdaDelta, RMSprop, Adam
 date: 2018-08-17
 feature_image: 
+usemathjax: true
 ---
+
+深度学习中常见的优化器，包括 SGD, momentum SGD, Nesterov accelerated gradient, Adagrad, AdaDelta, RMSprop, Adam.
+
+<!--more-->
 
 ### SGD
 
