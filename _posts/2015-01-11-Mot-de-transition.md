@@ -1,0 +1,206 @@
+---
+layout: post
+title: Mots de transition
+description: 
+date: 2015-01-11
+feature_image:
+tags: [French]
+---
+
+**Mots de transition: énumération des arguments**
+
+- D’abord
+- Tout d’abord
+- En premier lieu
+- Ensuite, de plus
+- Finalement
+- En outre
+- Par ailleurs
+- En dernier lieu
+- enfin
+
+**Pour débuter**
+
+- D'abord, ...
+- En premier lieu, ...
+- Pour commencer, ...
+- Premièrement, ...
+
+**Pour terminer**
+
+- En conclusion, ...
+- Pour conclure, ...
+- Enfin, ...
+- Finalement, ...
+- En dernier lieu,...
+
+**Mots de transition: formules de concession**
+
+- bien que...
+- il y a aussi...
+- il est vrai que...mais
+- tout en reconnaissant que...
+- on peut supposer que
+
+**Illustration**
+
+- Par exemple
+- En fait
+- Prenons le cas de...
+- Considérons, par exemple...
+- L’exemple le plus significatif...
+
+**Opposition**
+
+- Cependant
+- Mais 
+- Pourtant
+- Toutefois
+- Néanmoins
+- Contraste
+- Alors que
+- Tandis que
+- Par contre
+- En revanche
+
+**Pour marquer l'opposition ou le contraste**
+
+- Pourtant, ...
+- Cependant, ...
+- Toutefois, ...
+- En fait, ...
+- Malgré cela, ...
+- Malgré tout, ...
+
+**Conclusion**
+
+- Donc
+- Ainsi
+- Aussi (au début de la phrase)
+- En conséquence
+
+**Continuation**
+
+- En outre
+- Par ailleurs
+- De plus
+- D’autant plus
+
+**Mots de transitions: pour conclure un texte**
+
+- Pour conclure
+- Pour toutes ces raisons
+- En somme
+- Ainsi
+- Donc
+
+**Pour présenter une thèse**
+
+- Tout d’abord, il faut dire que
+- Tout d’abord, examinons
+- Commençons par examiner
+
+**Pour relier deux éléments**
+
+- Tout d’abord
+- En premier lieu, puis, et en dernier lieu
+- En tout premier lieu
+- Pour comprendre...il faut tout d’abord
+- Premièrement, deuxièmement, troisièmement
+- Enfin
+
+**Pour donner un exemple**
+
+- Prenons le cas de
+- Il suffit de prendre pour exemple
+- ...en est un exemple frappant
+- ...illustre bien...
+- Pour prendre un autre exemple
+- par exemple
+- ...est l’exemple le plus frappant de...
+- ...illustre bien... (+nom)
+- ...est un bon exemple
+- ...prenons le cas de...
+
+**Pour être plus précis**
+
+- en particulier
+- un aspect plus spécifique
+- plus précisément
+
+**Pour marquer l’accord**
+
+- Il faut reconnaître que
+- Il est indéniable que
+- (et) à juste titre
+
+**Pour marquer le désaccord**
+
+- Mais en réalité
+- ...ne tient pas lorsque l’on examine attentivement
+
+**Pour souligner un argument**
+
+- de toute évidence
+- l’aspect le plus important de...(+nom)
+
+**Pour mettre un détail en valeur**
+
+- le fait que...est révélateur
+- il ne faut pas oublier que
+- il faut souligner que
+- on trouve ici un exemple important, à savoir que...
+- la caractéristique principale de
+- afin d’attirer l’attention sur
+- ...est/sont intéressant(e)(s) du fait que...
+
+**Pour marquer la conséquence**
+
+- De même,...
+- De la même manière, ...
+- au fur et à mesure de + nom
+- au fur et à mesure que + indicatif
+- à nouveau, de nouveau
+- Une fois de plus,...
+- encore une fois,...
+- Après cela,
+- Après que + indicatif
+- Puis...ensuite...
+- Alors, ...
+- Donc,...
+- Aussi...
+- De plus,...
+- Qui plus est, ...
+- En outre, ...
+- Outre cela, ...
+- Par la suite, ... plus tard, ...
+- Comme on pouvait s'y attendre, ...
+- En conséquence, ...
+- Par conséquent, ...
+
+**Pour marquer la causalité**
+
+- à cause de cela,...
+- c'est pour cela que...
+- c'est la raison pour laquelle...
+- c'est pourquoi...
+- c'est ainsi que...
+- de sorte que...
+- de façon/manière que...
+- de ce fait,...
+- à partir de là,...
+- c'est dans ce but que...
+- parce que...
+- grâce à...
+- à cause de...
+- car... puisque...
+
+**Autres expressions utiles**
+
+- Il s'agit de ...(invariable)
+- il est question de ...
+- étant donné que ...
+- par rapport à ...
+- en ce qui concerne ...
+- touchant à ...
+- Selon ..., suivant, d'après ...
