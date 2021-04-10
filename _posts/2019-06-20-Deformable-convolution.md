@@ -7,7 +7,11 @@ date: 2019-06-20
 feature_image: 
 usemathjax: true
 ---
-Deformable convolution 最早是在 MSRA 2017 年的论文 [Deformable Convolutional Networks](https://arxiv.org/abs/1703.06211) 中提出的。通过对传统 CNN 的卷积操作进行改进，赋予其对于形状不规则的 pattern 更强的特征提取能力。2018 年的 [Deformable ConvNets v2: More Deformable, Better Results](https://arxiv.org/abs/1811.11168) 有提出了进一步的改进。虽然两篇论文中还提出了很多其他的创新点，但 deformable convolution 凭借其简单好用，成为目标检测领域刷分的标配。再开始介绍之前，我们先来回顾一些关于常规卷积层的一些概念。
+Deformable convolution 最早是在 MSRA 2017 年的论文 [Deformable Convolutional Networks](https://arxiv.org/abs/1703.06211) 中提出的。通过对传统 CNN 的卷积操作进行改进，赋予其对于形状不规则的 pattern 更强的特征提取能力。2018 年的 [Deformable ConvNets v2: More Deformable, Better Results](https://arxiv.org/abs/1811.11168) 有提出了进一步的改进。虽然两篇论文中还提出了很多其他的创新点，但 deformable convolution 凭借其简单好用，成为目标检测领域刷分的标配。
+
+<!--more-->
+
+在开始介绍之前，我们先来回顾一些关于常规卷积层的一些概念。
 
 ## 数学表达
 
