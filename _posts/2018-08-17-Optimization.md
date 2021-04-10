@@ -3,7 +3,7 @@ layout: post
 title: 最优化理论笔记
 tags: [data analysis, machine learning]
 description: 这部分内容包括了最优化的形式，KTT条件，拉格朗日算子及其对偶形式
-date: 2018-08-017
+date: 2018-08-17
 feature_image: 
 ---
 
