@@ -60,6 +60,7 @@ permalink: /:title
 
 # Conversion
 markdown: kramdown
+highlighter: rouge
 
 # Sass
 sass:
