@@ -24,7 +24,7 @@ url: "http://gathierry.github.io"
 favicon: images/favicon.png
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-google_analytics: ""
+google_analytics: "272454461"
 
 # Site navigation - each item must have a title and a url.
 navigation:
