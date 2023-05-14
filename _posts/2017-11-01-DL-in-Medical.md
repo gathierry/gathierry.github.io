@@ -4,7 +4,6 @@ title: Summary of Deep Learning in Medical Imaging Application
 tags: [computer vision, deep learning, medical image]
 description: 
 date: 2017-11-01
-feature_image: images/2017-11-01-DL-in-Medical/title.jpg
 ---
 
 This report is basically a summary for the paper _A Survey on Deep Learning in Medical Image Analysis_ [Litjens et al.](https://arxiv.org/abs/1702.05747) to introduce some deep learning techniques in medical image analysis. For more details, please refer to the original paper.
